@@ -1,0 +1,225 @@
+/*
+Theme Name: Woostify Child
+Theme URI: https://woostify.com
+Template: woostify
+Author: Woostify
+Author URI: https://woostify.com/about
+Description: Woostify is fast, lightweight, responsive and super flexible WooCommerce theme built with SEO, speed, and usability in mind. The theme works great with any of your favorite page builder likes Elementor, Beaver Builder, SiteOrigin, Thrive Architect, Divi, etc. Therefore, you can build any type of websites like shop, business agencies, corporate, portfolio, education, university portal, consulting, church, restaurant, medical and so on. Woostify is compatible with all well-coded plugins, including major ones like WooCommerce, OrbitFox, Yoast, BuddyPress, bbPress, etc. Learn more about the theme and ready to import demo sites at https://woostify.com
+Tags: e-commerce,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,full-width-template,threaded-comments,rtl-language-support,footer-widgets,sticky-post,theme-options
+Version: 2.3.3.1726375297
+Updated: 2024-09-15 04:41:37
+
+*/
+
+.flex-control-nav.flex-control-thumbs {
+    display: flex;
+}
+
+.flex-control-nav.flex-control-thumbs img {
+    max-width: 100px;
+    object-fit: contain;
+    object-position: center;
+    min-height: 100px;
+}
+
+#menu-header-primary {
+    text-align: center;
+    font-family: "sequel black", Sans-serif;
+}
+
+#menu-header-primary li a {
+    font-weight: 500;
+    font-family: "sequel black", Sans-serif;
+}
+
+
+/*topbar  */
+
+.topbar {
+    background: linear-gradient(90deg, rgba(135, 112, 177, 0.272233893557423) 0%, rgba(12, 121, 186, 0.4375) 100%) !important;
+    font-family: "sequel black", Sans-serif;
+}
+
+.topbar h6 {
+    font-family: "sequel black", Sans-serif;
+    font-weight: 500 !important;
+    color: #fff !important;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(135, 112, 177, 0.272233893557423) 0%, rgba(12, 121, 186, 0.4375) 100%);
+    font-family: "sequel black", Sans-serif;
+}
+
+footer a,
+footer p {
+    color: #fff !important
+}
+
+footer h6 {
+    color: #000 !important;
+    font-weight: 500 !important;
+    font-family: "sequel black", Sans-serif;
+}
+
+.site-infor-col {
+    text-align: center;
+    width: 100%;
+}
+
+.site-info {
+    flex-wrap: wrap;
+}
+
+.woostify-countdown-urgency {
+    display: none;
+}
+
+.e-atc-qty-button-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.e-atc-qty-button-holder .quantity {
+    flex-basis: 30% !important;
+    height: 52px;
+}
+
+.woocommerce-tabs .tabs {
+    text-align: left !important;
+    font-family: "sequel black", Sans-serif;
+}
+
+.woocommerce table {
+    width: 100% !important;
+    font-family: "sequel black", Sans-serif;
+}
+
+.woo-variation-swatches .variable-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+    font-family: "sequel black", Sans-serif;
+}
+
+.reset_variations {
+    display: none;
+}
+
+.woo-selected-variation-item-name {
+    display: none !important;
+}
+
+.price .woocommerce-Price-amount {
+    font-size: 30px;
+    font-family: "sequel black", Sans-serif;
+}
+
+.variations tr {
+    display: flex;
+    align-items: center;
+}
+
+.variations label {
+    font-size: 20px;
+    font-weight: 500 !important
+}
+
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected {
+    box-shadow: 0px 0px 10px rgba(135, 112, 178, 0.12), 0px 0px 20px rgba(135, 112, 178, 0.10), 0px 0px 30px rgba(12, 121, 186, 0.10), 0px 0px 40px rgba(12, 121, 186, 0.09) !important;
+}
+
+.woocommerce .products .product {
+    background: linear-gradient(90deg, rgba(135, 112, 177, 0.272233893557423) 0%, rgba(12, 121, 186, 0.4375) 100%);
+    border-radius: 10px;
+}
+
+.woocommerce-loop-product__title {
+    font-family: "sequel black", Sans-serif;
+    color: #000 !important
+}
+
+.product-loop-image-wrapper {
+    height: 300px;
+    background: #fff;
+}
+
+.product-loop-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-image-wrap img {
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.eael-woo-product-carousel-container .icons-wrap.block-style li a {
+    background: #8770B1 !important
+}
+
+.add-to-cart .icon-shopping-cart-2 {
+    display: none;
+}
+
+.elementor-slides .swiper-slide-bg {
+    background-position: 0% !important;
+    background-size: cover !important;
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-pagination {
+    width: 100% !important;
+}
+
+.woocommerce div.product.elementor ul.tabs {
+    display: flex;
+}
+
+.woocommerce-tabs .tabs li {
+    margin: 0;
+}
+
+.woocommerce div.product.elementor ul.tabs li {
+    text-wrap: nowrap;
+}
+
+.wp-forms input {
+    height: 50px !important;
+}
+
+@media only screen and (max-width: 1199.5px) {
+    .woocommerce-tabs {
+        padding: 20px 0 !important;
+    }
+    .woocommerce div.product.elementor ul.tabs {
+        overflow-x: auto;
+    }
+    .woocommerce-tabs .tabs li {
+        margin: 0;
+        text-wrap: nowrap;
+    }
+    .woocommerce div.product.elementor ul.tabs li a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tab-menu ul {
+        width: 85% !important;
+        gap: 0 50px;
+    }
+    .e-atc-qty-button-holder .quantity {
+        flex-basis: 100% !important;
+        width: 100% !important;
+    }
+    .e-atc-qty-button-holder {
+        flex-wrap: wrap !important;
+    }
+}
